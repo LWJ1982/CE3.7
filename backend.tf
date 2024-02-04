@@ -1,7 +1,7 @@
-# terraform{
-#     backend "s3" {
-#       bucket = "sctp-ce2-tfstate-bkt"
-#       key = "lwj-S3wSQS.tfstate"
-#       region = "ap-southeast-1"
-#     }
-# }
+terraform{
+    backend "s3" {
+      bucket = "sctp-ce4-tfstate-bucket"
+      key = "S3wSQS-lwj.tfstate"
+      region = "ap-southeast-1"
+    }
+}
