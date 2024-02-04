@@ -1,5 +1,5 @@
-variable "your_name"{
-    type = string
-    default= "lwj"
+variable "your_name" {
+  type    = string
+  default = "lwj"
 
 }
